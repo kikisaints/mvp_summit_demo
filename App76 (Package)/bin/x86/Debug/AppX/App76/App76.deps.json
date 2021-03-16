@@ -1,0 +1,557 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "App76/1.0.0": {
+        "dependencies": {
+          "App76.Core": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "5.0.0",
+          "Microsoft.Toolkit.Mvvm": "7.0.0-preview5",
+          "Microsoft.WinUI": "3.0.0-preview4.210210.4",
+          "Microsoft.Xaml.Behaviors.WinUI.Managed": "2.0.3-rc5",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.18362.13"
+        },
+        "runtime": {
+          "App76.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.18362.13": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.18362.10",
+            "fileVersion": "10.0.18362.13"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.1.34171"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Toolkit.Mvvm/7.0.0-preview5": {
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.1"
+          }
+        }
+      },
+      "Microsoft.WinUI/3.0.0-preview4.210210.4": {
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.ApplicationModel.Resources.Projection.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.2102"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win10-arm64/native/CoreMessagingXP.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-arm64/native/DwmSceneI.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-arm64/native/MRM.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-arm64/native/Microsoft.ApplicationModel.Resources.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-arm64/native/Microsoft.DirectManipulation.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-arm64/native/Microsoft.InputStateManager.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-arm64/native/Microsoft.Internal.FrameworkUdk.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-arm64/native/Microsoft.UI.Composition.OSSupport.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-arm64/native/Microsoft.UI.Input.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-arm64/native/Microsoft.UI.Xaml.Controls.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-arm64/native/Microsoft.UI.Xaml.Controls.pri": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-arm64/native/Microsoft.UI.Xaml.Internal.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-arm64/native/Microsoft.UI.Xaml.Phone.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-arm64/native/Microsoft.UI.Xaml/Assets/NoiseAsset_256x256_PNG.png": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-arm64/native/Microsoft.Web.WebView2.Core.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "1.0.721.0"
+          },
+          "runtimes/win10-arm64/native/Microsoft.ui.xaml.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-arm64/native/Microsoft.ui.xaml.resources.19h1.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-arm64/native/Microsoft.ui.xaml.resources.common.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-arm64/native/WebView2Loader.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "1.0.721.0"
+          },
+          "runtimes/win10-arm64/native/WinUIEdit.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "10.0.10011.16384"
+          },
+          "runtimes/win10-arm64/native/dcompi.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-arm64/native/dwmcorei.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-arm64/native/en-us/Microsoft.UI.Xaml.Phone.dll.mui": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-arm64/native/en-us/Microsoft.ui.xaml.dll.mui": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-arm64/native/marshal.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-arm64/native/wuceffectsi.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-x64/native/CoreMessagingXP.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-x64/native/DwmSceneI.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/MRM.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/Microsoft.ApplicationModel.Resources.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/Microsoft.DirectManipulation.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-x64/native/Microsoft.InputStateManager.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-x64/native/Microsoft.Internal.FrameworkUdk.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/Microsoft.UI.Composition.OSSupport.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/Microsoft.UI.Input.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-x64/native/Microsoft.UI.Xaml.Controls.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-x64/native/Microsoft.UI.Xaml.Controls.pri": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/Microsoft.UI.Xaml.Internal.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/Microsoft.UI.Xaml.Phone.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-x64/native/Microsoft.UI.Xaml/Assets/NoiseAsset_256x256_PNG.png": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/Microsoft.Web.WebView2.Core.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.721.0"
+          },
+          "runtimes/win10-x64/native/Microsoft.ui.xaml.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-x64/native/Microsoft.ui.xaml.resources.19h1.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-x64/native/Microsoft.ui.xaml.resources.common.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-x64/native/WebView2Loader.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.721.0"
+          },
+          "runtimes/win10-x64/native/WinUIEdit.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "10.0.10011.16384"
+          },
+          "runtimes/win10-x64/native/dcompi.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-x64/native/dwmcorei.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-x64/native/en-us/Microsoft.UI.Xaml.Phone.dll.mui": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-x64/native/en-us/Microsoft.ui.xaml.dll.mui": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-x64/native/marshal.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/wuceffectsi.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-x86/native/CoreMessagingXP.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-x86/native/DwmSceneI.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x86/native/MRM.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x86/native/Microsoft.ApplicationModel.Resources.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x86/native/Microsoft.DirectManipulation.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-x86/native/Microsoft.InputStateManager.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-x86/native/Microsoft.Internal.FrameworkUdk.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x86/native/Microsoft.UI.Composition.OSSupport.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x86/native/Microsoft.UI.Input.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-x86/native/Microsoft.UI.Xaml.Controls.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-x86/native/Microsoft.UI.Xaml.Controls.pri": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x86/native/Microsoft.UI.Xaml.Internal.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x86/native/Microsoft.UI.Xaml.Phone.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-x86/native/Microsoft.UI.Xaml/Assets/NoiseAsset_256x256_PNG.png": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x86/native/Microsoft.Web.WebView2.Core.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.721.0"
+          },
+          "runtimes/win10-x86/native/Microsoft.ui.xaml.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-x86/native/Microsoft.ui.xaml.resources.19h1.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-x86/native/Microsoft.ui.xaml.resources.common.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-x86/native/WebView2Loader.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.721.0"
+          },
+          "runtimes/win10-x86/native/WinUIEdit.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "10.0.10011.16384"
+          },
+          "runtimes/win10-x86/native/dcompi.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-x86/native/dwmcorei.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          },
+          "runtimes/win10-x86/native/en-us/Microsoft.UI.Xaml.Phone.dll.mui": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-x86/native/en-us/Microsoft.ui.xaml.dll.mui": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "3.0.0.2102"
+          },
+          "runtimes/win10-x86/native/marshal.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x86/native/wuceffectsi.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "10.0.21303.1001"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.WinUI.Managed/2.0.3-rc5": {
+        "dependencies": {
+          "Microsoft.WinUI": "3.0.0-preview4.210210.4"
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.Xaml.Interactions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net5.0-windows10.0.18362.0/Microsoft.Xaml.Interactivity.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "App76.Core/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "App76.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "App76/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.18362.13": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rc2kb/p3Ze6cP6rhFC3PJRdWGbLvSHZc0ev7YlyeU6FmHciDMLrhoVoTUEzKPhN5ZjFgKF1Cf5fOz8mCMIkvpA==",
+      "path": "microsoft.extensions.dependencyinjection/5.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Toolkit.Mvvm/7.0.0-preview5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EfL3mvxSOj4c/8ElKH/wWFLCjW9X+m6pZ4YLYNZG3qgWp5TDLWAQK50zUqpcEB65RotNq944gTQowP6HBMkPqw==",
+      "path": "microsoft.toolkit.mvvm/7.0.0-preview5",
+      "hashPath": "microsoft.toolkit.mvvm.7.0.0-preview5.nupkg.sha512"
+    },
+    "Microsoft.WinUI/3.0.0-preview4.210210.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fMo1Llbprv3+7nVyUvBxc/lQtMmwBFCGHdeH7sTPIeFKPneNOs0qW2XqnYBorGRRitbPUxxmLKgxOM8zR5dAgA==",
+      "path": "microsoft.winui/3.0.0-preview4.210210.4",
+      "hashPath": "microsoft.winui.3.0.0-preview4.210210.4.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.WinUI.Managed/2.0.3-rc5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VSC4JKMD3RgQuwVbBBVtO5dA26HEcn3udHrZ7tZTBo52qFIPLcE5JegKLpXL9fqYOjja4i7NLr4OxpcuiMd/Lw==",
+      "path": "microsoft.xaml.behaviors.winui.managed/2.0.3-rc5",
+      "hashPath": "microsoft.xaml.behaviors.winui.managed.2.0.3-rc5.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "App76.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

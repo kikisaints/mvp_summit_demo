@@ -1,0 +1,187 @@
+{
+  "version": 3,
+  "targets": {
+    "UAP,Version=v10.0.17763": {
+      "App76/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/App76.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App76.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-arm": {
+      "App76/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/App76.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App76.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-arm-aot": {
+      "App76/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/App76.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App76.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-arm64-aot": {
+      "App76/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/App76.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App76.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-x64": {
+      "App76/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/App76.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App76.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-x64-aot": {
+      "App76/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/App76.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App76.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-x86": {
+      "App76/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/App76.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App76.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-x86-aot": {
+      "App76/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/App76.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App76.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "App76/1.0.0": {
+      "type": "project",
+      "path": "../App76/App76.csproj",
+      "msbuildProject": "../App76/App76.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "UAP,Version=v10.0.17763": [
+      "App76 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jproca\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jproca\\source\\repos\\App76\\App76 (Package)\\App76 (Package).wapproj",
+      "projectName": "App76 (Package)",
+      "projectPath": "C:\\Users\\jproca\\source\\repos\\App76\\App76 (Package)\\App76 (Package).wapproj",
+      "packagesPath": "C:\\Users\\jproca\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jproca\\source\\repos\\App76\\App76 (Package)\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jproca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "uap10.0.17763"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://microsoft.pkgs.visualstudio.com/_packaging/WinUI-Xaml-CI/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/dotnet/WindowsCommunityToolkit/_packaging/WindowsCommunityToolkit-WinUI3/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/microsoft/ProjectReunion/_packaging/Project.Reunion.nuget.internal/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "projectReferences": {
+            "C:\\Users\\jproca\\source\\repos\\App76\\App76\\App76.csproj": {
+              "projectPath": "C:\\Users\\jproca\\source\\repos\\App76\\App76\\App76.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "uap10.0.17763": {
+        "imports": [
+          "net5.0-windows10.0.19041"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    },
+    "runtimes": {
+      "win10-arm": {
+        "#import": []
+      },
+      "win10-arm-aot": {
+        "#import": []
+      },
+      "win10-arm64-aot": {
+        "#import": []
+      },
+      "win10-x64": {
+        "#import": []
+      },
+      "win10-x64-aot": {
+        "#import": []
+      },
+      "win10-x86": {
+        "#import": []
+      },
+      "win10-x86-aot": {
+        "#import": []
+      }
+    }
+  }
+}

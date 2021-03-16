@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "svmtK5XGx1Sl2mIe25AsVJT3BNtfTWdBE6lP+pws0G6f/QetxtZcbS4rmkRN5r0sjzUpdFMhqi8WVHEop15/Rg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jproca\\source\\repos\\App76\\App76.Core\\App76.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jproca\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jproca\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\jproca\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

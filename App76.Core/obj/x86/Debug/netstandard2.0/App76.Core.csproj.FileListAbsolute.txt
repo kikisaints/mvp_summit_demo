@@ -1,0 +1,9 @@
+C:\Users\jproca\source\repos\App76\App76.Core\bin\x86\Debug\netstandard2.0\App76.Core.deps.json
+C:\Users\jproca\source\repos\App76\App76.Core\bin\x86\Debug\netstandard2.0\App76.Core.dll
+C:\Users\jproca\source\repos\App76\App76.Core\bin\x86\Debug\netstandard2.0\App76.Core.pdb
+C:\Users\jproca\source\repos\App76\App76.Core\obj\x86\Debug\netstandard2.0\App76.Core.csprojAssemblyReference.cache
+C:\Users\jproca\source\repos\App76\App76.Core\obj\x86\Debug\netstandard2.0\App76.Core.AssemblyInfoInputs.cache
+C:\Users\jproca\source\repos\App76\App76.Core\obj\x86\Debug\netstandard2.0\App76.Core.AssemblyInfo.cs
+C:\Users\jproca\source\repos\App76\App76.Core\obj\x86\Debug\netstandard2.0\App76.Core.csproj.CoreCompileInputs.cache
+C:\Users\jproca\source\repos\App76\App76.Core\obj\x86\Debug\netstandard2.0\App76.Core.dll
+C:\Users\jproca\source\repos\App76\App76.Core\obj\x86\Debug\netstandard2.0\App76.Core.pdb
